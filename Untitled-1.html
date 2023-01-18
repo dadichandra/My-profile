@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to create a Number field.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+  var x = document.createElement("INPUT");
+  x.setAttribute("type", "number");
+  x.setAttribute("value", "12345");
+  document.body.appendChild(x);
+}
+</script>
+
+</body>
+</html>
